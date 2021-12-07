@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Activity8">
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="123dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="224dp"
+        android:background="@drawable/krug"
+        android:backgroundTint="#81FFFF00"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="343dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="193dp"
+        android:layout_height="31dp"
+        android:text="Driver rank: Master"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="193dp"
+        android:layout_height="31dp"
+        android:text="Model: Ford Focus"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="193dp"
+        android:layout_height="31dp"
+        android:text="Color: Gray"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.565" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="223dp"
+        android:layout_height="204dp"
+        android:background="@drawable/krug"
+        tools:layout_editor_absoluteX="296dp"
+        tools:layout_editor_absoluteY="613dp" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="223dp"
+        android:layout_height="204dp"
+        android:background="@drawable/krug"
+        tools:layout_editor_absoluteX="-98dp"
+        tools:layout_editor_absoluteY="596dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="223dp"
+        android:layout_height="204dp"
+        android:background="@drawable/krug"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="-72dp" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="223dp"
+        android:layout_height="204dp"
+        android:background="@drawable/krug"
+        tools:layout_editor_absoluteX="-109dp"
+        tools:layout_editor_absoluteY="-86dp" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="244dp"
+        android:layout_height="198dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.223"
+        app:srcCompat="@drawable/download" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="276dp"
+        android:layout_height="71dp"
+        android:text="A CAR IS COMING TO YOUR LOCATION!"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.407" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="123dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/krug"
+        android:backgroundTint="#81FFFF00"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="276dp"
+        android:layout_height="71dp"
+        android:text="ESTIMATED TIME:"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.777" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="193dp"
+        android:layout_height="31dp"
+        android:text="Driver: Šendelj Husein"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.61" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="165dp"
+        android:layout_height="61dp"
+        android:text="15 MINUTES!"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

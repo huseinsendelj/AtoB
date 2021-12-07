@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Activity6">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="223dp"
+        android:layout_height="204dp"
+        android:background="@drawable/krug"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="123dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/krug"
+        android:backgroundTint="#81FFFF00"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="77dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="223dp"
+        android:layout_height="204dp"
+        android:background="@drawable/krug"
+        tools:layout_editor_absoluteX="-93dp"
+        tools:layout_editor_absoluteY="594dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="223dp"
+        android:layout_height="204dp"
+        android:background="@drawable/krug"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="-59dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="223dp"
+        android:layout_height="204dp"
+        android:background="@drawable/krug"
+        tools:layout_editor_absoluteX="-109dp"
+        tools:layout_editor_absoluteY="-86dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="231dp"
+        android:layout_height="45dp"
+        android:background="@drawable/zaobljeno"
+        android:backgroundTint="#FFFF00"
+        android:padding="4dp"
+        android:text="Continue"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.545" />
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="216dp"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="12312313"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.469" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="114dp"
+        android:layout_height="21dp"
+        android:text="New password:"
+        android:textColor="#474646"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="287dp"
+        android:layout_height="62dp"
+        android:text="Enter your new password:"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.298" />
+
+    <TextView
+        android:id="@+id/signin5"
+        android:layout_width="310dp"
+        android:layout_height="57dp"
+        android:text="Password recovery"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="3dp"
+        android:background="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.469" />
+</androidx.constraintlayout.widget.ConstraintLayout>

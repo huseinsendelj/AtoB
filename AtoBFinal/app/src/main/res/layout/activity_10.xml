@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Activity10">
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="151dp"
+        android:layout_height="149dp"
+        android:background="@drawable/krug"
+        tools:layout_editor_absoluteX="-50dp"
+        tools:layout_editor_absoluteY="-75dp" />
+
+    <ImageView
+        android:id="@+id/imageView48"
+        android:layout_width="151dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/krug"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView47"
+        android:layout_width="151dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="644dp"
+        android:background="@drawable/krug"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="327dp" />
+
+    <ImageView
+        android:id="@+id/imageView46"
+        android:layout_width="151dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="564dp"
+        android:background="@drawable/krug"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-50dp" />
+
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="151dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/krug"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="295dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="237dp"
+        android:layout_height="59dp"
+        android:text="Phone number:"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="166dp"
+        android:layout_height="78dp"
+        android:text="E-Mail:"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.252" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="166dp"
+        android:layout_height="78dp"
+        android:text="Name:"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        android:layout_width="236dp"
+        android:layout_height="67dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="harunt03@gmail.com"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.329" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="175dp"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Harun Torlak"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.169" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="263dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="+387 61 917 671"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
+</androidx.constraintlayout.widget.ConstraintLayout>
